@@ -45,6 +45,10 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/seoul256.vim'
+Plug 'morhetz/gruvbox'
+Plug 'leafgarland/typescript-vim'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 call plug#end()
 
@@ -59,5 +63,8 @@ map <C-o> :NERDTreeToggle<CR>
 map <C-n> :NERDTreeFocus<CR>
 
 " seoul256
-let g:seoul256_background = 233
-colo seoul256
+" let g:seoul256_background = 233
+" colo seoul256
+
+" gruvbox
+colorscheme gruvbox
